@@ -347,3 +347,59 @@ a {
 .popular .course-item .btn-book:hover {
   background-color: var(--primary-color);
 }
+/* feedback */
+.feedback {
+  background: #2e2100;
+  margin-top: 135px;
+  padding: 96px;
+}
+.feedback_item {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback_item .info .avt {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback_item .info .member-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+.feedback_item .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.feedback_item .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+}
+.feedback_item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+.feedback_item .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
+.feedback_item .content {
+  width: 66%;
+}
+.feedback_item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54;
+}
