@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 :root {
@@ -353,9 +355,15 @@ a {
   margin-top: 135px;
   padding: 96px;
 }
+.feedback_list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback_item {
   display: flex;
+  width: 100%;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 .feedback_item .info .avt {
   width: 72px;
